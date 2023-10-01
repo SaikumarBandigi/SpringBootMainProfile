@@ -1,0 +1,7 @@
+https://riptutorial.com/spring-boot/example/31100/set-the-right-spring-profile-by-building-the-application-automatically--maven-
+
+
+mvn clean package -Pprod -DskipTests
+mvn clean package -Plocal -DskipTests
+mvn clean package -Pdev -DskipTests
+
