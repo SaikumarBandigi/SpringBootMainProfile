@@ -10,7 +10,6 @@ import com.springboot.profile.dao.UserRepository;
 import com.springboot.profile.model.User;
 
 
-
 @Service
 @Profile(value = { "local", "dev", "prod" })
 public class UserService {
@@ -24,7 +23,6 @@ public class UserService {
 	public void saveUser(User entity)
 	{
 	 repository.save(entity);
-
 	}
 
 }

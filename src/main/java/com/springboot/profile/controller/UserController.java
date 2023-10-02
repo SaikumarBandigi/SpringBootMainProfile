@@ -21,6 +21,7 @@ public class UserController {
 	public List<User> findAllUsers() {
 
 		List<User> personList = commonService.getUserService().getUsers();
+
 		for (User person : personList) {
 			System.out.println("Person Object" + person.toString());
 

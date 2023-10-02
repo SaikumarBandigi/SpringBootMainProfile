@@ -10,7 +10,7 @@ import com.springboot.profile.model.User;
 import com.springboot.profile.service.UserService;
 
 @SpringBootApplication
-public class SpringBootProfilePocApplication 
+public class SpringBootProfilePocApplication
 implements CommandLineRunner{
 
 	@Autowired
@@ -18,8 +18,7 @@ implements CommandLineRunner{
 	
 	@Value(value="${spring.profiles.active}")
 	private String profile;
-	
-	
+
 	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootProfilePocApplication.class, args);
